@@ -157,7 +157,7 @@ ${tests}
 ${license}
 ## Questions
 If you have questions about this project pleas contact me:
-GitHub: ${github}
+GitHub: https://github.com/${github}/
 E-mail: ${email}`;
 //Write File function
 writeToFile(title, readmeTemplate);

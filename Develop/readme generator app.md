@@ -21,5 +21,5 @@ No tests were created for this app.
 The MIT License
 ## Questions
 If you have questions about this project pleas contact me:
-GitHub: 00anp
+GitHub: https://github.com/00anp/
 E-mail: alfonso.nupe29@gmail.com

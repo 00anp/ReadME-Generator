@@ -1,7 +1,10 @@
 # ReadME-Generator
 
 This project consists on a ReadMe Generator App created in javaScript using Node.js and node dependencies inquirer and fs.
-The result markdown file of this app is below:
+### Walkthrough Video:
+[My YouTube demo:](https://www.youtube.com/watch?v=uCN7Efj_EC0)
+### App result
+The result markdown file of this app is on this repo on the Develop folder and also shown below:
 
 ## Table of Contents
 *[Description](#description)
@@ -25,5 +28,5 @@ No tests were created for this app.
 The MIT License
 ## Questions
 If you have questions about this project pleas contact me:
-GitHub: 00anp
+GitHub: https://github.com/00anp/
 E-mail: alfonso.nupe29@gmail.com
