@@ -165,7 +165,7 @@ writeToFile(title, readmeTemplate);
 // TODO: Create a function to write README file
 function writeToFile(title, readmeTemplate) { 
     //fs
-    fs.writeFile(`./${title.toLowerCase().split('').join('')}.md`, data, (err) =>{
+    fs.writeFile(`./${title.toLowerCase().split('').join('')}.md`, readmeTemplate, (err) =>{
         if(err){
             console.log(err);
         }
