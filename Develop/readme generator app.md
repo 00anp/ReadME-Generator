@@ -1,8 +1,4 @@
-# ReadME-Generator
-
-This project consists on a ReadMe Generator App created in javaScript using Node.js and node dependencies inquirer and fs.
-The result markdown file of this app is below:
-
+# ReadMe Generator App
 ## Table of Contents
 *[Description](#description)
 *[Installation](#installation)

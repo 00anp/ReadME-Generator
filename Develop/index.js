@@ -1,5 +1,5 @@
 // TODO: Include packages needed for this application
-const iquirer = require("iquirer");
+const inquirer = require("inquirer");
 const fs = require("fs");
 
 // TODO: Create an array of questions for user input title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -135,29 +135,30 @@ inquirer.prompt([
     license
 }) => {
     const readmeTemplate = `# ${title}
-    ## Table of Contents
-    *[Description](#description)
-    *[Installation](#installation)
-    *[Usage](#usage)
-    *[Contributions](#contributions)
-    *[Tests](#tests)
-    *[License](#license)
-    *[Questions](#questions)
-    ## Description
-    ${description}
-    ## Installation
-    ${installation}
-    ## Usage
-    ${usage}
-    ## Contributions
-    ${contribute}
-    ## Tests
-    ${tests}
-    ## License
-    ${license}
-    ## Questions
-    GitHub: ${github}
-    E-mail: ${email}`;
+## Table of Contents
+*[Description](#description)
+*[Installation](#installation)
+*[Usage](#usage)
+*[Contributions](#contributions)
+*[Tests](#tests)
+*[License](#license)
+*[Questions](#questions)
+## Description
+${description}
+## Installation
+${installation}
+## Usage
+${usage}
+## Contributions
+${contribute}
+## Tests
+${tests}
+## License
+${license}
+## Questions
+If you have questions about this project pleas contact me:
+GitHub: ${github}
+E-mail: ${email}`;
 //Write File function
 writeToFile(title, readmeTemplate);
 });
